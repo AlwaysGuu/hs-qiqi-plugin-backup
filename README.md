@@ -9,9 +9,24 @@
 
 可能在之后更新插件之后会考虑增加的功能
 
-· 重构角色语音逻辑，简化音频获取原理，方便后续更新  
-· 当控制台输出ERR或WARN时，在bot群名片后方增加“错误发生”或“警告发生”字样，并在主人打出#故障列表时输出记录的ERR和WARN  
-· InterOS风格的bot状态页面  
+* 重构角色语音逻辑，简化音频获取原理，方便后续更新  
+* 当控制台输出ERR或WARN时，在bot群名片后方增加“错误发生”或“警告发生”字样，并在主人打出#故障列表时输出记录的ERR和WARN  
+* InterOS风格的bot状态页面  
+
+## 安装本仓库版本枫叶
+
+```
+git clone https://github.com/AlwaysGuu/hs-qiqi-plugin-backup.git  ./plugins/hs-qiqi-plugin_backup
+```
+
+## 已装枫叶插件更换到本仓库
+
+```
+#删除原远程仓库地址
+git remote rm origin
+#更换仓库地址
+git remote add origin https://github.com/AlwaysGuu/hs-qiqi-plugin-backup.git
+```
 
 ----
 
