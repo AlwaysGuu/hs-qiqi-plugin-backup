@@ -28,6 +28,9 @@ git remote rm origin
 git remote add origin https://github.com/AlwaysGuu/hs-qiqi-plugin-backup.git
 ```
 
+如果安装1.05枫叶，请自行clone 1.0.5分支
+
+
 ----
 
 ## 下方是原枫叶插件readme.md文件
